@@ -1,4 +1,5 @@
 import CardCarousel from "@/components/main/CardCarousel";
+import InitialLoading from "@/components/main/InitialLoading";
 import dynamic from "next/dynamic";
 
 const SceneRobo = dynamic(() => import("@/components/scenes/SceneRobo"), {
@@ -12,6 +13,7 @@ export default function Home() {
         <SceneRobo />
       </div>
       <CardCarousel />
+      <InitialLoading/>
     </main>
   );
 }
