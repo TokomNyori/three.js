@@ -14,7 +14,6 @@ const Scene = dynamic(() => import("@/components/scenes/Scene"), {
 });
 
 export default function CardCarousel() {
-
   return (
     <Swiper
       direction={"vertical"}

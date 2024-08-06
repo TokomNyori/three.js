@@ -85,10 +85,10 @@ export const PulseBeams = () => {
           <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
         </span>
         <div className="relative flex flex-col justify-center w-[320px] text-center space-x-2 h-[120px]  items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 ">
-          <span className="md:text-4xl text-base inline-block bg-clip-text text-transparent bg-gradient-to-r from-neutral-300 via-neutral-600 to-neutral-300">
+          <span className="text-3xl md:text-4xl inline-block bg-clip-text text-transparent bg-gradient-to-r from-neutral-300 via-neutral-600 to-neutral-300">
             GeekPie 3D
           </span>
-          <div className="mt-1">
+          <div className="mt-1 mr-2">
             <BarLoader
               color="#ffffff"
               //@ts-ignore

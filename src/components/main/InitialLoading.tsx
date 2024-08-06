@@ -10,7 +10,7 @@ const InitialLoading = () => {
   useEffect(() => {
     // Hide the loading screen after 3 seconds
     const timer = setTimeout(() => {
-      setIsLoading(false);
+      setIsLoading(true);
     }, 4000);
 
     return () => clearTimeout(timer); // Clean up the timer

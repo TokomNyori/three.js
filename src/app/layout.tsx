@@ -44,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={formulaCondensed.className}>
+      <body className={`${formulaCondensed.className} bg-scifi bg-no-repeat bg-top`} >
         <Navbar />
         {children}
       </body>
