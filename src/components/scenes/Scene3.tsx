@@ -22,7 +22,7 @@ const Scene3 = () => {
       gl={{ antialias: true }}
       dpr={[1, 1.5]}
       shadows
-      className={`relative h-screen w-full cursor-pointer`}
+      className={`relative h-screen w-full cursor-grab`}
     >
       <directionalLight
         position={[5, 5, 5]}
