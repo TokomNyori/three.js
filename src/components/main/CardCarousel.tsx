@@ -24,7 +24,7 @@ export default function CardCarousel() {
         clickable: true,
       }}
       modules={[Mousewheel, Pagination]}
-      className="h-[40rem] lg:h-[28rem] my-swiper"
+      className="h-[40rem] lg:h-[28rem] my-swiper mb-2 lg:mb-0"
     >
       {threedmodels.map((model, index) => (
         <SwiperSlide key={index}>
