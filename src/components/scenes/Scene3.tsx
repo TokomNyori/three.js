@@ -13,7 +13,7 @@ import Model3 from "../models/Model3";
 
 function Progressive() {
   const { progress, active } = useProgress();
-  return <Html center>{progress.toFixed(1)} % loaded</Html>;
+  return <Html center>Loading 3D Model. {progress.toFixed(1)} % loaded</Html>;
 }
 
 const Scene3 = () => {
