@@ -14,7 +14,7 @@ import ModelRobo from "../models/ModelRobo";
 
 function Progressive() {
   const { progress, active } = useProgress();
-  return <Html center>{progress.toFixed(1)} % loaded</Html>;
+  return <Html center>Loading 3D Model. {progress.toFixed(1)} % loaded</Html>;
 }
 
 const SceneRobo = () => {
@@ -33,7 +33,7 @@ const SceneRobo = () => {
           shadow-mapSize-height={1024}
         />
       <ambientLight intensity={1} castShadow />
-      <OrbitControls enableZoom={false}/>
+      <OrbitControls enableZoom={false} enableRotate={true} autoRotate={true} />
       <Suspense fallback={<Progressive />}>
         <ModelRobo />
       </Suspense>

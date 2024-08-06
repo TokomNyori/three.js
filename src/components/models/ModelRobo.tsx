@@ -70,7 +70,7 @@ const ModelRobo = () => {
   });
 
   return (
-    <group ref={groupRef} scale={0.04}>
+    <group ref={groupRef} scale={0.03}>
       <primitive object={scene} />
     </group>
   );

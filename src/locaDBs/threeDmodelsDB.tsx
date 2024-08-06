@@ -18,7 +18,7 @@ const Scene4 = dynamic(() => import("@/components/scenes/Scene4"), {
   ssr: false,
 });
 
-const Scene5 = dynamic(() => import("@/components/scenes/Scene5"), {
+const Scene5 = dynamic(() => import("@/components/scenes/SceneRobo"), {
   ssr: false,
 });
 
@@ -37,6 +37,14 @@ export const threedmodels: ModelCardsProps[] = [
       technology and style. Its neon-lit keys and holographic interface
       create a stunning visual display. This device represents the edge of
       innovation, merging high-tech functionality with a cyberpunk aesthetic.`,
+  },
+  {
+    title: "cybernetic rover",
+    scene: <Scene5 />,
+    description: `Cybernetic Rover, a marvel of modern engineering, epitomizes the fusion
+      of advanced robotics and rugged durability. Designed for exploration and
+      complex tasks, it features a robust frame and versatile appendages. With its powerful build, the Cybernetic Rover is equipped
+      to handle diverse environments.`,
   },
   {
     title: "earth",
@@ -63,12 +71,12 @@ export const threedmodels: ModelCardsProps[] = [
       Mars presents a mysterious beauty, its atmosphere creating surreal hues
       during twilight, hinting at the possibilities of exploration and discovery.`,
   },
-  {
-    title: "iphone 14 Pro",
-    scene: <Scene5 />,
-    description: `iPhone 14, a pinnacle of modern design and technology, features a
-      sleek, elegant body with advanced functionality. Its vibrant display,
-      powerful processor, and cutting-edge features make it a symbol of
-      innovation. This device sets a new standard in smartphone excellence.`,
-  },
+  // {
+  //   title: "iphone 14 Pro",
+  //   scene: <Scene5 />,
+  //   description: `iPhone 14, a pinnacle of modern design and technology, features a
+  //     sleek, elegant body with advanced functionality. Its vibrant display,
+  //     powerful processor, and cutting-edge features make it a symbol of
+  //     innovation. This device sets a new standard in smartphone excellence.`,
+  // },
 ];

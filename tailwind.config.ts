@@ -21,7 +21,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        'scifi': "url('/bg.jpg')",
+        'scifi': "url('/bg2.jpg')",
+        'scifi2': "url('/bg3.jpg')",
       },
     },
   },
