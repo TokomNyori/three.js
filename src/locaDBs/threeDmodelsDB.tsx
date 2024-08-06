@@ -43,7 +43,7 @@ export const threedmodels: ModelCardsProps[] = [
     scene: <Scene5 />,
     description: `Cybernetic Rover, a marvel of modern engineering, epitomizes the fusion
       of advanced robotics and rugged durability. Designed for exploration and
-      complex tasks, it features a robust frame and versatile appendages. With its powerful build, the Cybernetic Rover is equipped
+      complex tasks, it features a robust frame and versatile appendages. The Rover is equipped
       to handle diverse environments.`,
   },
   {
@@ -52,7 +52,7 @@ export const threedmodels: ModelCardsProps[] = [
     description: `Earth, a radiant blue gem in the vast cosmos, captivates with its
       stunning beauty. Its vibrant landscapes—oceans, forests, and
       mountains—are bathed in golden dawn light and silver river glimmers.
-      Cities sparkle with human vitality, while at night, the moon’s gentle
+      Cities sparkle with human vitality. The moon’s gentle
       glow illuminates tranquil seas.`,
   },
   {
